@@ -6,6 +6,11 @@ public class AleatorioEmple {
 
 	public static void main(String[] args) throws IOException {
 		System.out.println("METODO MAIN");
+		
+		System.out.println(EjemploRama.class.getSimpleName());
+		
+		
+		
 		crear();
 		leer();
 	}
