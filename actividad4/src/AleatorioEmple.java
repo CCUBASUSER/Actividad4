@@ -5,6 +5,7 @@ import java.io.RandomAccessFile;
 public class AleatorioEmple {
 
 	public static void main(String[] args) throws IOException {
+		System.out.println("METODO MAIN");
 		crear();
 		leer();
 	}
@@ -40,7 +41,7 @@ public class AleatorioEmple {
 			file.close(); 
 			System.out.println(" ------------------------------------------");
 		} else 
-			System.out.println(" ---------FICHERO VACÍO --------------------");
+			System.out.println(" ---------FICHERO VACï¿½O --------------------");
 	}// fin verporconsola
 
 	public static void crear() throws IOException {
